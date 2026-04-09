@@ -32,13 +32,7 @@ Just three things to get MentorConnect running:
 
 ### Installation Steps
 
-**Step 1: Get the Code**
-```bash
-git clone https://github.com/shubhamrajput27/mentorconnect.git
-cd mentorconnect
-```
-
-**Step 2: Set Up the Database**
+**Step 1: Set Up the Database**
 ```bash
 # Import the database using MySQL
 mysql -u root -p < database/database.sql
@@ -47,7 +41,7 @@ mysql -u root -p < database/database.sql
 # Just open: http://localhost/mentorconnect/dev-tools/setup-database.php
 ```
 
-**Step 3: Configure Your Database Connection**
+**Step 2: Configure Your Database Connection**
 Open `config/database.php` and update these lines:
 ```php
 define('DB_HOST', 'localhost');      // Usually 'localhost'
@@ -56,7 +50,7 @@ define('DB_USER', 'root');           // Your database username
 define('DB_PASS', '');               // Your database password
 ```
 
-**Step 4: Open in Browser**
+**Step 3: Open in Browser**
 - If using WAMP/XAMPP: `http://localhost/mentorconnect`
 - Or start PHP's built-in server: `php -S localhost:8000`
 
@@ -124,8 +118,8 @@ Just fork the repo, make your changes, and send us a pull request. Every little 
 
 Got questions? Running into issues? We're here to help!
 
-- **Found a bug?** [Open an issue](https://github.com/shubhamrajput27/mentorconnect/issues)
-- **Have a question?** Check out our [documentation](https://github.com/shubhamrajput27/mentorconnect/wiki)
+- **Found a bug?** [Open an issue](https://github.com/PrachiYadav-16/mentorconnect/issues)
+- **Have a question?** Check out our [documentation](https://github.com/PrachiYadav-16/mentorconnect/wiki)
 - **Want to chat?** Email us at support@mentorconnect.com
 
 ---
@@ -134,15 +128,6 @@ Got questions? Running into issues? We're here to help!
 
 Free to use! This project is under the MIT License - feel free to use it for your own projects.
 
----
-
-## 👥 The Team
-
-**MentorConnect** is brought to you by:
-
-- **Shubham Singh** - Created the concept and built the foundation
-- **Prachi Yadav** - Optimized architecture and performance
-- **You?** - We'd love your contribution!
 
 ---
 

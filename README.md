@@ -2,6 +2,10 @@
 
 **Your bridge to expert mentorship - connecting eager learners with experienced mentors**
 
+**Live demo:** https://mentorconnect-alpha.vercel.app
+
+> The live demo runs the newer Next.js version of MentorConnect, maintained at [shubhamrajput27/mentorconnect](https://github.com/shubhamrajput27/mentorconnect). This repository holds the earlier PHP version.
+
 Hi there! 👋 Welcome to MentorConnect - a platform built to make finding and connecting with mentors as easy as possible. Whether you're looking to learn something new or share your expertise, we've got you covered!
 
 ---
